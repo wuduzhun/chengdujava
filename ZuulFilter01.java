@@ -9,6 +9,7 @@ import javax.servlet.http.HttpServletRequest;
 
 @Component
 public class ZuulFilter01 extends ZuulFilter {
+    // 人生的道路虽然漫长，但紧要处常常只有几步《人生》
     @Override
     public String filterType() {
         return "pre";
